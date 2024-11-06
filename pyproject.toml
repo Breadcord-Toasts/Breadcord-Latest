@@ -27,10 +27,10 @@ dependencies = [
     "discord-py@git+https://github.com/Rapptz/discord.py",
     "packaging==24.1",
     "pydantic==2.7.2",
-    "rapidfuzz==3.9.3",
-    "rich==13.7.1",
+    "rich==13.9.3",
+    "rapidfuzz==3.10.1",
     "textual==0.74.0",
-    "tomlkit==0.12.5",
+    "tomlkit==0.13.2",
     "uv==0.2.32",
 ]
 
@@ -43,7 +43,7 @@ dev = [
     "pre-commit==3.8.0",
     "ruff",
     "ruff-lsp",
-    "textual-dev==1.5.1",
+    "textual-dev==1.6.1",
 ]
 
 [project.scripts]
